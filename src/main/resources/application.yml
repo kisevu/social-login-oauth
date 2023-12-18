@@ -1,0 +1,15 @@
+server:
+  port: 3330
+spring:
+  application:
+    name: social-login-oauth
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId:
+            clientSecret:
+          google:
+            clientId:
+            clientSecret:
